@@ -1,6 +1,10 @@
 #include "laser_emulator.hpp"
 #include "time.h"
 
+#ifdef _WIN32
+	#define M_PI 3.14
+#endif
+
 namespace laser_emulator
 {
 namespace sick
